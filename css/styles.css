@@ -1,0 +1,157 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+.title-header {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.img-iphone {
+    transform: rotate(25deg);
+    width: 23%;
+    position: absolute;
+    right: 25%;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.download-button1 {
+    margin: 5% 0;
+}
+.download-button2 {
+    margin: 5% 0;
+    position: relative;
+    left: 10%;
+}
+.icon-color {
+    color: #ef8172;
+    padding: 4%;
+}
+.icon-color:hover {
+    color: #ff4c68;
+}
+
+#features {
+    background-color: white;
+    position: relative;
+}
+.features-head {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.features-text {
+    color: #8f8f8f;
+}
+.features-padding {
+    padding-top: 4%;
+}
+
+#testimonials {
+    
+    background-color: #ef8172;
+    color: white;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 40%;
+    margin: 20px 20px 50px;
+}
+.press-1 {
+    text-align: end;
+}
+.press-2 {
+    text-align: start;
+    margin-top: 28px;
+}
+
+#pricing {
+    padding: 100px;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.pricing-head {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 5px;
+}
+
+#cta{
+    background-color: #ff4c68;
+}
+.cta-header{
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin: 10%;
+    line-height: 1.5;
+}
+.cta-buttons{
+    margin: 2%;
+    font-weight: 500;
+}
+
+#footer{
+    background-color: white;
+    padding: 3%;
+}
+.footer-text{
+    color: #8f8f8f;
+    padding: 3%;
+}
+.footer-btn{
+    padding: 1%;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 1024px){
+    #title{
+        text-align: center;
+    }
+    .img-iphone {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+        
+    }
+}
